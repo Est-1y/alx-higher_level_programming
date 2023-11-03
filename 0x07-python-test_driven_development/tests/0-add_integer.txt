@@ -1,0 +1,34 @@
+=======================================================
+How to use 0-add_integer.py
+
+function: ```def add_integer(a, b=98)```
+=======================================================
+
+# First let's import the function 
+>>> from add_integer import add_integer
+
+# Test for if a is float
+>>> add_integer(5.3,7)
+12
+
+# Test for float b
+>>> add_integer(2,3.9)
+5
+
+>>> add_integer(2,3)
+5
+
+>>> add_integer(3, 'r')
+Traceback (most recent call last):
+...
+TypeError: b must be an integer
+
+>>> add_integer('3', 3)
+Traceback (most recent call last):
+...
+TypeError: a must be an integer
+
+>>> add_integer('3', 'r')
+Traceback (most recent call last):
+...
+TypeError: a must be an integer

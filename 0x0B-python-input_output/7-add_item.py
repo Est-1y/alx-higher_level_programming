@@ -1,7 +1,7 @@
 #!/usr/bin/python3
-"""this program saves strings from command line arguments to a file called
-`add_item.json`. This file contains a json serialized list of all strings
-entered as arguments to the program
+"""A P``rogram to save strings from command line arguments to file called
+`add_item.json`. File contains a json serialized list of all strings
+entered as arguments to the program.
 """
 
 if __name__ == "__main__":

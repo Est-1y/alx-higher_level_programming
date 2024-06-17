@@ -10,7 +10,7 @@ if (isNaN(parseInt(size))) {
   for (let i = 0; i < squareSize; i++) {
     let row = '';
     for (let j = 0; j < squareSize; j++) {
-      row += 'X ';
+      row += 'X';
     }
     console.log(row);
   }

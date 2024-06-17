@@ -1,13 +1,13 @@
 #!/usr/bin/node
 
-const args = process.argv.slice(2);
-function secondLargest (args) {
-  if (args.length < 2) {
+const numsList = process.argv.slice(2);
+function secondMax (list) {
+  if (list.length < 2) {
     return 0;
   } else {
-    args.sort((x, y) => x - y);
-    args.pop();
-    return args.pop();
+    list.sort((x, y) => x - y);
+    list.pop();
+    return list.pop();
   }
 }
-console.log(secondLargest(numsArgs));
+console.log(secondMax(numsList));

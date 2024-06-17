@@ -1,17 +1,16 @@
 #!/usr/bin/node
 
-const size = process.argv;
+const size = process.argv[2];
 
-if (isNaN(parseInt(size))) {
+if (isNaN(parseInt(squareSize))) {
   console.log('Missing size');
 } else {
-  const squareSize = parseInt(size);
 
   for (let i = 0; i < squareSize; i++) {
-    let row = '';
+    let line = '';
     for (let j = 0; j < squareSize; j++) {
-      row += 'X';
+      line += 'X';
     }
-    console.log(row);
+    console.log(line);
   }
 }

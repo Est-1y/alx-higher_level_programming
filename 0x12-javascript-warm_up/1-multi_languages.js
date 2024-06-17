@@ -1,7 +1,7 @@
 #!/usr/bin/node
-const message = 'C is fun';
-const message = 'Python is cool';
-const message = 'JavaScript is amazing';
+const messageA = 'C is fun';
+const messageB = 'Python is cool';
+const messageC = 'JavaScript is amazing';
 
 console.log(message);
 console.log(message);

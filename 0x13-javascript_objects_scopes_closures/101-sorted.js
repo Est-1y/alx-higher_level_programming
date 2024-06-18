@@ -1,6 +1,6 @@
 #!/usr/bin/node
 //Import statement
-const dict = require('./101-data');
+const {dict} = require('./101-data');
 
 // Initializing a new object.
 let sortedDict = {};

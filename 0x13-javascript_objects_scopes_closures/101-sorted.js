@@ -1,18 +1,19 @@
 #!/usr/bin/node
-//Import statement
-const {dict} = require('./101-data');
+// Importing statement
+const { dict } = require('./101-data.js');
 
-// Initializing a new object.
-let sortedDict = {};
-//Iteration
+// New dictionary
+const usersByOccurrence = {};
+
+// Loop over
 for (const userId in dict) {
-  const occurrences = dict[userId];
-
-  if (!sortedDict[occurrences]) {
-    sortedDict[occurrences] = [];
+  const occurrence = dict[userId];
+  
+  if (!usersByOccurrence[occurrence]) {
+    usersByOccurrence[occurrence] = [];
   }
-
-  sortedDict[occurrences].push(userId);
+  
+  usersByOccurrence[occurrence].push(userId);
 }
 
-console.log(sortedDict);
+console.log(usersByOccurrence);

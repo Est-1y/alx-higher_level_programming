@@ -1,10 +1,5 @@
 #!/usr/bin/node
-
-class Rectangle {
-  constructor(w, h) {
-    this.width = w;
-    this.height = h;
-  }
-}
-
-export default Rectangle;
+class Rectangle:
+    def __init__(self, w, h):
+        self.width = w
+        self.height = h

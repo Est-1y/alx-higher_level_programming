@@ -5,7 +5,7 @@ const occurrencesDict = {};
 for (const userId in dict) {
   const occurrences = dict[userId];
 
-  if (occurrences in occurrencesDict) {
+  if (occurrencesDict.hasOwnProperty(occurrences)) {
     occurrencesDict[occurrences].push(userId);
   } else {
     occurrencesDict[occurrences] = [userId];

@@ -1,10 +1,10 @@
 #!/usr/bin/node
+//Import statement
+const dict = require('./101-data');
 
-const { dict } = require('./101-data');
-
-// Initializing a new object
+// Initializing a new object.
 let sortedDict = {};
-
+//Iteration
 for (const userId in dict) {
   const occurrences = dict[userId];
 

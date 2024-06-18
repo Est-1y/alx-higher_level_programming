@@ -1,5 +1,4 @@
 #!/usr/bin/node
-//iterate throug the occurences
 const { dict } = require('./101-data');
 
 const occurrencesDict = {};

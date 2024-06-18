@@ -1,3 +1,2 @@
 #!/usr/bin/node
-
-module.exports = { Rectangle: class {} };
+export default class Rectangle {}

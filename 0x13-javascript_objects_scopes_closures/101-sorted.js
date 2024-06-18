@@ -1,6 +1,7 @@
 #!/usr/bin/node
-const { dict } = require('./101-data');
 //iterate throug the occurences
+const { dict } = require('./101-data');
+
 const occurrencesDict = {};
 for (const userId in dict) {
   const occurrences = dict[userId];

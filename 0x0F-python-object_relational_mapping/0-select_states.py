@@ -1,9 +1,7 @@
 #!/usr/bin/python3
-
 """
 Script listing all states from the database hbtn
 """
-
 import MySQLdb
 from sys import argv
 
@@ -17,7 +15,7 @@ if __name__ == '__main__':
         db=argv[3]
     )
 
-    # creating a cursor object for runnning SQL queries
+    # cursor object
     cursor = db.cursor()
 
     cursor.execute("SELECT * FROM states ORDER BY id ASC")

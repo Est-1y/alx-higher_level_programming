@@ -1,4 +1,5 @@
 Learning Objectives
+
 Why Python programming is awesome
 How to connect to a MySQL database from a Python script
 How to SELECT rows in a MySQL table from a Python script
@@ -8,6 +9,7 @@ How to map a Python Class to a MySQL table
 How to create a Python Virtual Environment
 
 Requirements
+
 Allowed editors: vi, vim, emacs
 All your files will be interpreted/compiled on Ubuntu 20.04 LTS using python3 (version 3.8.5)
 Your files will be executed with MySQLdb version 2.0.x

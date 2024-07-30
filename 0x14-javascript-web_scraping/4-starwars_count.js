@@ -2,9 +2,9 @@
 
 const request = require('request');
 
-const api_Url = process.argv[2];
+const apiUrl = process.argv[2];
 
-request(api_Url, function (err, response, body) {
+request(apiUrl, function (err, response, body) {
   if (err) {
     console.log(err);
   } else if (response.statusCode === 200) {

@@ -1,4 +1,5 @@
 0. Readme
+
   #mandatory
 
   Write a script that reads and prints the content of a file.

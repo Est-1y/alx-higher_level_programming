@@ -1,5 +1,7 @@
 0. Readme
+
 #mandatory
+
 Write a script that reads and prints the content of a file.
 
 
@@ -9,7 +11,9 @@ If an error occurred during the reading, print the error object
 
 
 1. Write me
+
 #mandatory
+
 Write a script that writes a string to a file.
 
 The first argument is the file path
@@ -19,7 +23,9 @@ If an error occurred during while writing, print the error object
 
 
 2. Status code
+
 #mandatory
+
 Write a script that display the status code of a GET request.
 
 The first argument is the URL to request (GET)
@@ -28,7 +34,9 @@ You must use the module request
 
 
 3. Star wars movie title
+
 #mandatory
+
 Write a script that prints the title of a Star Wars movie where the episode number matches a given integer.
 
 The first argument is the movie ID
@@ -37,7 +45,9 @@ You must use the module request
 
 
 4. Star wars Wedge Antilles
+
 #mandatory
+
 Write a script that prints the number of movies where the character “Wedge Antilles” is present.
 
 The first argument is the API URL of the Star wars API: https://swapi-api.alx-tools.com/api/films/
@@ -46,7 +56,9 @@ You must use the module request
 
 
 5. Loripsum
+
 #mandatory
+
 Write a script that gets the contents of a webpage and stores it in a file.
 
 The first argument is the URL to request
@@ -56,7 +68,9 @@ You must use the module request
 
 
 6. How many completed?
+
 #mandatory
+
 Write a script that computes the number of tasks completed by user id.
 
 The first argument is the API URL: https://jsonplaceholder.typicode.com/todos
@@ -65,7 +79,9 @@ You must use the module request
 
 
 7. Who was playing in this movie?
+
 #advanced
+
 Write a script that prints all characters of a Star Wars movie:
 
 The first argument is the Movie ID - example: 3 = “Return of the Jedi”
@@ -75,7 +91,9 @@ You must use the module request
 
 
 8. Right order
+
 #advanced
+
 Write a script that prints all characters of a Star Wars movie:
 
 The first argument is the Movie ID - example: 3 = “Return of the Jedi”

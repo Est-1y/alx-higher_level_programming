@@ -1,6 +1,5 @@
 #!/usr/bin/node
 
-//request require module
 const request = require('request');
 
 const apiUrl = process.argv[2];

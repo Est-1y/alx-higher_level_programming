@@ -1,4 +1,5 @@
 0. No JQuery
+
 mandatory
 Write a JavaScript script that updates the text color of the <header> element to red (#FF0000):
 
@@ -7,6 +8,7 @@ You can’t use the JQuery API
 
 
 1. With JQuery
+
 mandatory
 Write a JavaScript script that updates the text color of the <header> element to red (#FF0000):
 
@@ -15,6 +17,7 @@ You must use the JQuery API
 
 
 2. Click and turn red
+
 mandatory
 Write a JavaScript script that updates the text color of the <header> element to red (#FF0000) when the user clicks on the tag DIV#red_header:
 
@@ -23,6 +26,7 @@ You must use the JQuery API
 
 
 3. Add `.red` class
+
 mandatory
 Write a JavaScript script that adds the class red to the <header> element when the user clicks on the tag DIV#red_header
 
@@ -31,6 +35,7 @@ You must use the JQuery API
 
 
 4. Toggle classes
+
 mandatory
 Write a JavaScript script that toggles the class of the <header> element when the user clicks on the tag DIV#toggle_header:
 
@@ -41,6 +46,7 @@ You must use the JQuery API
 
 
 5. List of elements
+
 mandatory
 Write a JavaScript script that adds a <li> element to a list when the user clicks on the tag DIV#add_item:
 
@@ -51,6 +57,7 @@ You must use the JQuery API
 
 
 6. Change the text
+
 mandatory
 Write a JavaScript script that updates the text of the <header> element to New Header!!! when the user clicks on DIV#update_header
 
@@ -59,6 +66,7 @@ You must use the JQuery API
 
 
 7. Star wars character
+
 mandatory
 Write a JavaScript script that fetches the character name from this URL: https://swapi-api.alx-tools.com/api/people/5/?format=json
 
@@ -68,6 +76,7 @@ You must use the JQuery API
 
 
 8. Star Wars movies
+
 mandatory
 Write a JavaScript script that fetches and lists the title for all movies by using this URL: https://swapi-api.alx-tools.com/api/films/?format=json
 
@@ -77,6 +86,7 @@ You must use the JQuery API
 
 
 9. Say Hello!
+
 mandatory
 Write a JavaScript script that fetches from https://hellosalut.stefanbohacek.dev/?lang=fr and displays the value of hello from that fetch in the HTML tag DIV#hello.
 
@@ -87,6 +97,7 @@ Your script must work when it is imported from the <head> tag
 
 
 10. No jQuery - document loaded
+
 #advanced
 Write a JavaScript script that updates the text color of the <header> element to red (#FF0000):
 
@@ -96,6 +107,7 @@ Note: Your script must be imported from the <head> tag, not at the end of the HT
 
 
 11. List, add, remove
+
 #advanced
 Write a JavaScript script that adds, removes and clears LI elements from a list when the user clicks:
 
@@ -110,6 +122,7 @@ You script must work when it imported from the HEAD tag
 
 
 12. Say hello to everybody!
+
 #advanced
 Write a JavaScript script that fetches and prints how to say “Hello” depending on the language
 
@@ -123,6 +136,7 @@ You script must work when imported from the <head> tag
 
 
 13. And press ENTER
+
 #advanced
 Write a JavaScript script that fetches and prints how to say “Hello” depending on the language
 
